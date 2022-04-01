@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.logo-y-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 10px;
+  position: sticky;
+  top: 0;
+  background-color: #000;
+}
+
+.lefpad {
+  padding-left: 25px;
+}
+
+nav ul {
+  display: flex;
+  justify-items: end;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+header {
+  background: #0c0c0c;
+  height: 10vh;
+  width: 100vw;
+  background-position: center;
+  background-size: 1000px;
+}
+
+nav ul li a {
+  color: antiquewhite;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-family: "Fjalla One", sans-serif;
+}
+
+section {
+  background-color: purple;
+  height: 88vh;
+}
+
+.unicomain {
+  margin: 1;
+  padding-top: 0px;
+  background-color: purple;
+  height: 0px;
+}
+
+#discografia {
+  background-image: url(imagenes/backvioleta.png);
+  color: white;
+  padding: 60px 0;
+  height: 76vh;
+}
+
+#discografia h4 {
+  margin: 0;
+  border: 1px solid;
+  width: 120px;
+  padding: 10px;
+  border-radius: 10px;
+}
+#discografia h1 {
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-family: "Fjalla One", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 45px;
+  text-decoration: underline;
+}
+
+#discografia .contenedor {
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  padding-left: 6vw;
+}
+
+#discografia p {
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: justify;
+}
+
+#discografia img {
+  padding-left: 40px;
+  width: 70%;
+}
+
+#discografia .texto {
+  width: 50%;
+  height: 85%;
+}
+
+#discografia .foto {
+  width: 45%;
+}
+
+span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
+  padding-left: 800px;
+  padding-right: 10px;
+  width: 80px;
+}
+
+span img {
+  max-width: 30px;
+  max-height: 30px;
+}

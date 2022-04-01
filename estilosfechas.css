@@ -1,7 +1,6 @@
 body {
-  margin: 0px;
+  margin: 0;
   padding: 0;
-  width: 100%;
 }
 
 a {
@@ -12,22 +11,7 @@ li {
   list-style: none;
 }
 
-.contenedor {
-  width: 100%;
-  height: auto;
-}
-
 .logo-y-menu {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding-top: 10px;
-  position: sticky;
-  top: 0;
-  background-color: #000;
-}
-
-header .logo-y-menu {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -51,8 +35,8 @@ nav ul li {
 }
 
 header {
-  background: #0c0c0c url(imagenes/fotoep.jpg) center center/cover no-repeat;
-  height: 88vh;
+  background: #0c0c0c;
+  height: 10vh;
   width: 100vw;
   background-position: center;
   background-size: 1000px;
@@ -64,34 +48,23 @@ nav ul li a {
   font-family: "Fjalla One", sans-serif;
 }
 
-.titular h1 {
-  font-family: "Fjalla One", sans-serif;
-  color: white;
-  font-size: 65px;
-  padding-top: 150px;
-  margin: auto;
+section {
+  background-color: purple;
+  height: 88vh;
 }
 
-header .titular {
-  width: 80%;
-  padding-left: 25px;
+.unicomain {
+  margin: 1;
+  padding-top: 0px;
+  background-color: purple;
+  height: 0px;
 }
 
 #discografia {
   background-image: url(imagenes/backvioleta.png);
   color: white;
   padding: 60px 0;
-  height: 75vh;
-}
-
-#discografia {
-  background-color: #502f5d;
-  background-image: repeating-radial-gradient(
-      circle at 0 0,
-      transparent 0,
-      #181833 14px
-    ),
-    repeating-linear-gradient(#a61b9a55, #a61b9a);
+  height: 76vh;
 }
 
 #discografia h4 {
@@ -107,6 +80,7 @@ header .titular {
   font-family: "Fjalla One", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 45px;
+  text-decoration: underline;
 }
 
 #discografia .contenedor {
@@ -136,7 +110,6 @@ header .titular {
 
 #discografia .foto {
   width: 45%;
-  padding-left: 40px;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:600&display=swap");
@@ -162,7 +135,7 @@ span a {
 span a:before,
 span a:after {
   position: absolute;
-  content: "Escuchalo";
+  content: "Entrada";
   height: 55px;
   width: 180px;
   display: flex;
