@@ -636,6 +636,46 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+	.icon1 {
+			text-decoration: none;
+			border-bottom: none;
+			position: relative;
+		}
+	
+			.icon1:before {
+				-moz-osx-font-smoothing: grayscale;
+				-webkit-font-smoothing: antialiased;
+				display: inline-block;
+				font-style: normal;
+				font-variant: normal;
+				text-rendering: auto;
+				line-height: 1;
+				text-transform: none !important;
+				font-family: 'Font Awesome 5 Free';
+				font-weight: 400;
+			}
+	
+			.icon1 > .label {
+				display: none;
+			}
+	
+			.icon1:before {
+				line-height: inherit;
+			}
+	
+			.icon1.solid:before {
+				font-weight: 900;
+			}
+	
+			.icon1.brands:before {
+				font-family: 'Font Awesome 5 Brands';
+			}
+
+
+
+
+
+
 /* Image */
 
 	.image {
